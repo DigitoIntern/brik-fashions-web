@@ -11,9 +11,15 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "brik_fashions_db";
+// $username = "root";
+// $password = "";
+// $dbname = "brik_fashions_db";
+
+$username = "fowyrqkh_brik_fashions";
+$password = "Brik@Fashions2025";
+$dbname = "fowyrqkh_brik_fashions";
+
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
