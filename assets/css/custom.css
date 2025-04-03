@@ -1,0 +1,131 @@
+.logo-sm {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: dotted 2px blue;
+}
+
+.logo-lg {
+    height: 3em;
+    width: 3em;
+    object-fit: cover;
+    border-radius: 50%;
+    border: dotted 2px blue;
+}
+
+.navbar-nav li a {
+    margin: 0px 5px;
+}
+
+.contact-nav {
+    text-decoration: none;
+
+}
+
+.brand-name {
+    font-family: Papyrus;
+    font-size: 1.5rem;
+}
+
+main {
+    min-height: 100vh;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+footer {
+    min-height: 20vh;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 1%;
+
+    /* border-bottom-right-radius: 50%; */
+    /* border-bottom-left-radius: 50%; */
+
+}
+
+header {
+    background: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-icons {
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.img-card-top {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.carousel-item img {
+    height: 410px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel-caption {
+    background-color: black;
+    opacity: .6;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.price {
+    color: red;
+    font-weight: bolder;
+}
+
+
+.cart {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 50%;
+    right: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* padding-top: 10px; */
+    z-index: 100;
+    box-shadow: black 5px 5px;
+    border: dotted blue 2px;
+}
+
+.cart-number {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.list-group-item>.nav-link>.fa-solid {
+    font-size: 25px;
+}
+
+.custom-navbar {
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+
+.nav-link {
+    color: inherit;
+
+}
