@@ -15,11 +15,9 @@ $servername = "localhost";
 // $password = "";
 // $dbname = "brik_fashions_db";
 
+$dbname = "fowyrqkh_brik_fashions";
 $username = "fowyrqkh_brik_fashions";
 $password = "Brik@Fashions2025";
-$dbname = "fowyrqkh_brik_fashions";
-
-
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
